@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-	    // write your code here
-	    System.out.println("Hello World!");
+	    Persona p1 = new Persona("Pablo","Perez",35);
+	    System.out.println(p1.toString());
     }
 }
